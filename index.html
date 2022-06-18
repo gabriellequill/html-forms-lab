@@ -10,39 +10,18 @@
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
-    <!-- First, create a form tag where our inputs will be nested -->
-
-
-      <!-- Add a label for 'fullname'-->
-
-      <!-- Add a text input with the id and name attributes set to 'fullname' -->
-      <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
-      <!-- Add a label for 'email'-->
-
-      <!-- Add a email input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
-
-
-      <!-- Add a label for 'phone'-->
-
-      <!-- Add a telephone input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
-
-
-      <!-- Add a label for 'message'-->
-
-      <!-- Add a textarea tag with the id and name attributes set to 'message' -->
-      <!-- Include the place holder text "Enter Message" -->
-
-
-      <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
-
-      <!-- Add an input with the type set to 'submit' -->
-
+    <form action=""method="get">
+      <label>Full Name</label>
+        <input type="text" id="full-name"required name="full-name" placeholder="Enter Name">
+      <label>Email</label>
+        <input type="text" id="email"required name="email" placeholder="Enter Email">
+      <label>Phone</label>
+        <input type="text" name="phone" placeholder="Enter Telephone (optional)">
+      <label>Message</label>
+        <input type="textarea" name="message" placeholder="Enter Message">
+      <input type="checkbox" id="I have read and agree to the terms and conditions" required><label>I have read and agree to the terms and conditions</label>
+      <input type="submit" value="Submit" id="Submit">
+    </form>
     
   </body>
 </html>
